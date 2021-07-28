@@ -1,0 +1,24 @@
+.logo img{
+    border: 5px solid darkorchid;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.fblock h2{
+    color: darkorchid;
+    font-family: Chilanka;
+    font-weight: bold;
+}
+
+.sblock input{
+    border-collapse: collapse;
+    background-color: darkorange;
+    border-bottom: 4px solid black;
+    padding: 25px;
+    margin-bottom: 7px;
+}
+
+.chldblock h2{
+    color: rosybrown;
+    font-family: "Droid Serif";
+}

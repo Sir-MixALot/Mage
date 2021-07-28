@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd" >
+    <head>
+        <css src="Amasty_UserName::css/btest.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block name="UserName.firstblock" class="Amasty\UserName\Block\Index" template="Amasty_UserName::findex.phtml" />
+            <block name="UserName.secblock" class="Amasty\UserName\Block\Index" template="Amasty_UserName::sindex.phtml" >
+                <block name="UserName.chldblock" template="Amasty_UserName::chldindex.phtml" />
+            </block>
+        </referenceContainer>
+    </body>
+</page>
+
+
