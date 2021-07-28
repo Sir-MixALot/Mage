@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="testpage2" frontName="testp">
+        <route frontName="testp" id="testpid">
             <module name="Amasty_UserName" />
         </route>
     </router>
